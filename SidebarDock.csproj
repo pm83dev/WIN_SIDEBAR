@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <!-- <ApplicationIcon>Resources\app.ico</ApplicationIcon> -->
+    <AssemblyName>SidebarDock</AssemblyName>
+    <RootNamespace>SidebarDock</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Per la temperatura CPU (fase 2, non ancora usata nello scheletro) -->
+    <!-- <PackageReference Include="LibreHardwareMonitorLib" Version="0.9.4" /> -->
+  </ItemGroup>
+
+</Project>
