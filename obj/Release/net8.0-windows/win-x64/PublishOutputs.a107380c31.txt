@@ -1,5 +1,0 @@
-C:\DEV\WIN_SIDEBAR\publish\SidebarDock.exe
-C:\DEV\WIN_SIDEBAR\publish\SidebarDock.dll
-C:\DEV\WIN_SIDEBAR\publish\SidebarDock.deps.json
-C:\DEV\WIN_SIDEBAR\publish\SidebarDock.runtimeconfig.json
-C:\DEV\WIN_SIDEBAR\publish\SidebarDock.pdb

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Threading;
 
 namespace SidebarDock;
@@ -110,6 +111,7 @@ public partial class MainWindow : Window
     {
         var snap = _monitor.Sample();
 
+        DateText.Text = DateTime.Now.ToString("dd-MM-yy");
         TimeText.Text = DateTime.Now.ToString("HH:mm");
         CpuText.Text = $"CPU {snap.CpuPercent:0}%";
         RamText.Text = $"RAM {snap.RamUsedPercent:0}%";

@@ -89,11 +89,16 @@
                     Grid.Row="1"
                     Margin="4,0,4,12"
                     HorizontalAlignment="Center">
+            <TextBlock x:Name="DateText"
+                       Foreground="Orange"
+                       FontSize="11"
+                       HorizontalAlignment="Center"
+                       Text="--/--/--"/>
             <TextBlock x:Name="TimeText"
                        Foreground="Orange"
                        FontSize="11"
                        HorizontalAlignment="Center"
-                       Text="T: --:--"/>
+                       Text="--:--"/>
             <TextBlock x:Name="CpuText"
                        Foreground="Orange"
                        FontSize="11"
